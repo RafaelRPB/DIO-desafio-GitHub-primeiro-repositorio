@@ -4,5 +4,7 @@ Repositório do desafio do projeto do Git/GitHub da Dio, referente ao bootcamp d
 
 ## Links úteis
 [Sintaxe Basica Markdown](https://www.markdownguide.org/basic-syntax/)
+
 [Página do Bootcamp](https://web.dio.me/track/tqi-fullstack-developer)
+
 [Minha pagina na DIO](https://web.dio.me/users/rafael_ramos_pb?tab=achievements)
