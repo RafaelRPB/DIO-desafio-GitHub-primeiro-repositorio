@@ -1,0 +1,39 @@
+.foto{ /*assim se faz comentários em css, sim é diferente do html, importante não confundir! o VSC vai sempre deixar textos de comentário em verde em qualquer linguagem, então em caso de dúvida, só ver se ficou verde! cuidado para não fechar incorretamente!*/
+    border-radius: 50px;
+    width: 10%;
+    margin: auto;
+}
+body{
+    background-color: rgb(19, 12, 27);
+    color: antiquewhite;
+    margin: auto;
+    max-width: 900;
+    text-align: center;
+
+}
+
+#title, .subtitle, .posttitle {
+    color:rgb(211, 255, 224);
+    font-family: 'Times New Roman', Times, serif;
+    font-style:oblique
+}
+.posttitle {
+    font-size: 16px;
+    font-style: oblique;
+}
+.post {
+    background-color: rgb(3, 24, 24);
+    padding: 3px;
+    border: 3px solid black;
+    margin-bottom: 10px;
+}
+.list {
+    contain: content;
+    list-style-type: none;
+    font-tra    
+    padding-left: 15px;
+}
+.list li a {
+    color: blue;
+    text-decoration: solid;
+}

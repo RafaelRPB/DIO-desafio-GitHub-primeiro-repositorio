@@ -1,31 +1,32 @@
-<!DOCTYPE html>
-<html> 
-    <head>
+<!DOCTYPE html><!--todo arquivo html começa com isso, serve para informar que isso aqui é um html-->
+<html> <!--a primeira parte do código-->
+    <head><!--a "cabeça" do código, serve para informar algumas coisas para o navegador, como o charset-->
         <meta charset="utf-8">
-        <title>Rafael Ramos</title>
+        <title>Rafael Ramos</title> 
+        <link rel="stylesheet" href="style.css"> <!--isso aqui informa ao navegador que ele deverá pegar as informações de estilo de outro lugar, no caso, o arquivo css chamado "style" que esta nessa mesma pasta, os comandos "id" e "class" que vemos são retirados desse local!-->
     </head>
-    <body>
+    <body> <!--o corpo do arquivo, aqui é onde fica todo a parte interessante do site, os artigos etc-->
         <header>
-            <img src="C:\Users\Rafae\Desktop\Trabalho\images\eu de novo - Copia.jpg" alt="uma imagem do me rosto.">
-            <h1>Rafael Ramos</h1>
+            <img src="C:\Users\Rafae\Desktop\Trabalho\images\eu de novo - Copia.jpg" alt="uma imagem do me rosto." class="foto"> <!--ao pegar uma imagem, é necessário ou colocar ela na mesma pasta (e informar apenas o nome) ou informar o caminho a onde a imagem está localizada dentro do servidor (como preferi mostrar de exemplo aqui)-->
+            <h1 id="Title">Rafael Ramos</h1> <!--os h1-h6 servem para separar os "titulos de arquivo", h1 só pode ser usado uma unica vez, e geralmente é reservado para nomear o nome do site ou a principal questão que o site trata, neste exemplo, eu ;D-->
         </header>
-        <section><header><h2>Posts</h2></header>
-        <article><h3>Olá Mundo!</h3>
-         Copypasta is a pasta that copies itself.
-         <a target="_blank" href="https://www.linkedin.com/in/rafael-ramos-6b3504136/">linkedin</a>
+        <section><header><h2 class="subtitle">Posts</h2></header>
+        <article><h3 class="posttitle">Olá Mundo!</h3>
+         <p>
+            Copypasta is a pasta that copies itself.
+            <!--isso é um comentário glorioso!-->
+        </p>
         </article>
         </section>
         <footer>
-            <p>
-                eu não sei fazer comentários dentro do código ainda : /
-                não me ensinaram ainda não, vou deixar isso aqui para me lembrar LOL
-            </p>
-            <ul>
+
+            <ul class="list"> <!--uma lista básica, sempre necessário colocar o li para informar os itens da lista-->
                 <li><a href="Rafael_ramos_pb@hotmail.com">Rafael_ramos_pb@hotmail.com</a></li>
                 <li><a target="_blank" href="https://github.com/RafaelRPB">GitHub</a></li>
+                <li><a target="_blank" href="https://www.linkedin.com/in/rafael-ramos-6b3504136/">linkedin</a></li>
 
 
-            </ul>
+            </ul><!--naturalmente, é necessário avisar o final de todo corpo de instruções, para isso serve essa /nome que vemos sempre no final.-->
         </footer>
     </body>
 </html>
