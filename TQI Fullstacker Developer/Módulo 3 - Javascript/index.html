@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!--esse meta permite que o arquivo seja visto proporcionalmente tanto em computador quanto telefone-->
+    <link rel="stylesheet" href="assets/css/style.css">
+    <!--<script src="assets/js/scripts.js"></script> os links de script pode ser colocado aqui na head, mas isso nem sempre é recomendado, em arquivos grandes isso pode fazer o navegador carregar algo antes dele ter os outros arquivos importantes para seu funcionamente, causando problemas de otimização.-->
+    <title>Contador</title>
+</head>
+<body>
+    <h1>contador!</h1>
+    <p>clique nos botões para alterar o valor.</p>
+    <div id="counter">
+        <button name="subtrair" onclick="decrement()">-</button>
+        <span id="currentnumber">0</span>
+        <button name="adicionar" onclick="increment()">+</button>
+    </div> <!--é possível achar o código completo no GitHub da autora do curso-->
+<script src="assets/js/scripts.js"></script>
+</body>
+</html>
